@@ -11,6 +11,9 @@
 - Network accessing from another device
 - BEM
 - Responsive Images with diffrent dpi, resolution, size ratio and orientation
+- Flexbox
+- CSS Row
+- Icon Amination
 
 ## Tools
 
