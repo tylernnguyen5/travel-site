@@ -13,7 +13,9 @@
 - Responsive Images with diffrent dpi, resolution, size ratio and orientation
 - Flexbox
 - CSS Row
-- Icon Amination
+- Icon and Fading Amination
+- Throttle
+- Code Splitting and Lazy Loading
 
 ## Tools
 
@@ -21,5 +23,6 @@
 - NPM
 - Webpack
 - PostCSS
+- Lodash
 
 - Git
