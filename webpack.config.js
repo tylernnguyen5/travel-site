@@ -55,7 +55,17 @@ let config = {
 	plugins: pages,
 	module: {
 		rules: [
-			cssConfig
+			cssConfig,
+			{		// For making our JS files working in a wider range of (older) browsers
+				test: /\.js$/,
+				exclude: /(node_modules)/,
+				use: {
+					loader: 'babel-loader',
+					options: {
+						presets: ['@babel/preset-react', '@babel/preset-env']
+					}
+				}
+			}
 		]
 	}
 };
@@ -88,18 +98,6 @@ if (currentTask == 'dev') {
 if (currentTask == 'build') {
 	postCSSPlugins.push(require('cssnano'));
 	cssConfig.use.unshift(MiniCssExtractPlugin.loader);
-
-	// For making our JS files working in a wider range of (older) browsers
-	config.module.rules.push({
-		test: /\.js$/,
-		exclude: /(node_modules)/,
-		use: {
-			loader: 'babel-loader',
-			options: {
-				presets: ['@babel/preset-env']
-			}
-		}
-	});
 
 	config.output = {
 		filename: '[name].[chunkhash].js',
