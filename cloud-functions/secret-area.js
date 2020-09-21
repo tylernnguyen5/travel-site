@@ -22,5 +22,4 @@ exports.handler = function(event, context, callback) {
       statusCode: 401   // Unauthorized
     })
   }
-
 }

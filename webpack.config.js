@@ -19,7 +19,7 @@ const postCSSPlugins = [
 	require('autoprefixer')
 ];
 
-// CSS Config
+// CSS Configs
 let cssConfig = {
 	test: /\.css$/i,
 	use: ['css-loader?url=false', {

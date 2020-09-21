@@ -14,6 +14,7 @@ let modal;
 new ClientArea();
 
 
+// For loading modal when one of the assigned element is clicked
 document.querySelectorAll(".open-modal").forEach(el => {
   el.addEventListener('click', e => {
     e.preventDefault();
