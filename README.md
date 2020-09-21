@@ -1,6 +1,10 @@
 # Travel Site
 
 
+## Live Demo
+
+The application is hosted with Netlify and you can have a look at the website [here](https://sad-jones-cae779.netlify.app/).
+
 ## Keywords
 
 - Automation
