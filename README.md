@@ -1,10 +1,10 @@
 # Travel Site
 
-As I learn more about the industry standards in web development tools, practices and work flow, I wanted to have a project where I can try to put everything together and make them work. 
+As I learned more about the industry standards in web development tools, practices and work flow, I wanted to have a project where I can try to put everything together and make them work. 
 
 Therefore, we have this fictional travel website where the users can book their vacation through an application. This is a single-page website for advertising the application.
 
-For the Secret Client Area at the bottom of the page, this is where I implemented a simple example with AWS Lambda Cloud function to send requests and working with the responses received. The secret passphrase is *'javascript'*.
+For the Secret Client Area at the bottom of the page, this is where I implemented a simple example with AWS Lambda Cloud Function to send requests and working with the responses received. The secret passphrase is *'javascript'*.
 
 ## Live Demo
 
@@ -36,3 +36,4 @@ The application is hosted with **Netlify** and you can have a look at the websit
 - Axios (for triggering AWS Lambda cloud function)
 - Git
 - Netlify
+- Postman
