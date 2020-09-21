@@ -16,6 +16,7 @@
 - Icon and Fading Amination
 - Throttle
 - Code Splitting and Lazy Loading
+- Cache busting
 
 ## Tools
 
