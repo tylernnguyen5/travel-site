@@ -12,7 +12,6 @@ The application is hosted with **Netlify** and you can have a look at the websit
 
 ![demo](demo.jpg)
 
-
 ## What I have learned from this project
 
 - Modern workflow with automation and files organization
